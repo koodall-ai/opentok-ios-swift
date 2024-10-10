@@ -1,0 +1,134 @@
+PODS:
+  - BanubaSdk (1.8.0):
+    - BNBAcneEyebagsRemoval (= 1.8.0)
+    - BNBBackground (= 1.8.0)
+    - BNBBody (= 1.8.0)
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBEyes (= 1.8.0)
+    - BNBFaceTracker (= 1.8.0)
+    - BNBFaceTrackerLite (= 1.8.0)
+    - BNBHair (= 1.8.0)
+    - BNBHands (= 1.8.0)
+    - BNBLips (= 1.8.0)
+    - BNBNeurobeautyMakeup (= 1.8.0)
+    - BNBOcclusion (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkApi (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+    - BNBSkin (= 1.8.0)
+    - BNBWatch (= 1.8.0)
+  - BNBAcneEyebagsRemoval (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBFaceTracker (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBBackground (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBBody (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBEffectPlayer (1.8.0)
+  - BNBEyes (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBFaceTracker (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBFaceTracker (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBFaceTrackerLite (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBHair (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBHands (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBLips (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBFaceTracker (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBNeurobeautyMakeup (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBFaceTracker (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBOcclusion (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBFaceTracker (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBScripting (1.8.0)
+  - BNBSdkApi (1.8.0):
+    - BNBSdkCore (= 1.8.0)
+  - BNBSdkCore (1.8.0)
+  - BNBSkin (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - BNBWatch (1.8.0):
+    - BNBEffectPlayer (= 1.8.0)
+    - BNBScripting (= 1.8.0)
+    - BNBSdkCore (= 1.8.0)
+  - OTXCFramework (2.26.0)
+
+DEPENDENCIES:
+  - BanubaSdk
+  - OTXCFramework (= 2.26.0)
+
+SPEC REPOS:
+  https://github.com/sdk-koodall/koodall-sdk-podspecs.git:
+    - BanubaSdk
+    - BNBAcneEyebagsRemoval
+    - BNBBackground
+    - BNBBody
+    - BNBEffectPlayer
+    - BNBEyes
+    - BNBFaceTracker
+    - BNBFaceTrackerLite
+    - BNBHair
+    - BNBHands
+    - BNBLips
+    - BNBNeurobeautyMakeup
+    - BNBOcclusion
+    - BNBScripting
+    - BNBSdkApi
+    - BNBSdkCore
+    - BNBSkin
+    - BNBWatch
+  trunk:
+    - OTXCFramework
+
+SPEC CHECKSUMS:
+  BanubaSdk: e5bda70d484c964f7231153b10b3134400465879
+  BNBAcneEyebagsRemoval: 29060f944dadc6275948b9d5ab1c70eb73ad5a71
+  BNBBackground: d51283b75292513a9567e45075b33ddbbcba3d07
+  BNBBody: 363749aa8b43b6b0d058903266a5cb09f4e4d850
+  BNBEffectPlayer: 45632f6ec7ca058fac189d96ed79291357901f58
+  BNBEyes: 373948191f3ddd6eb6d33fcf4e6e5ce9191644bb
+  BNBFaceTracker: f857220f48c34f32655dfc36a3819cb7fc2e34c1
+  BNBFaceTrackerLite: edc91df28b7f65657217a95dfd78ef783773d189
+  BNBHair: 086637d382dd406c763d0b5615561bc67f4edb1d
+  BNBHands: d44e30055d5aaa127dbc9acdf8d58a688fbcc9b3
+  BNBLips: c811906c5968d14191fc68862b718e6bfa919f85
+  BNBNeurobeautyMakeup: 32ba3b8831683bd4583dee1db8d70f3bda53b45a
+  BNBOcclusion: cfc22cd7982039862de4719ebb2f8557611142a8
+  BNBScripting: 9fa74ee95fd392055ad7fe2b0148363dfa9a78c5
+  BNBSdkApi: ae2f65846ef447b30fe88ae8fdfc2f3cf413a3e7
+  BNBSdkCore: a6f3d04664f0159560cbed1ea35379c8bda78ff3
+  BNBSkin: 3883e38fad131699ec10bf52d9c9c9177e939a22
+  BNBWatch: 617266f3cfac6880c008e4ae3699cff297b37238
+  OTXCFramework: f538d67b53a82f00ba1d0b94a45f750b246268f7
+
+PODFILE CHECKSUM: 3fa85d3d5c612a6c992053fc7ffeb36a5435f5fa
+
+COCOAPODS: 1.12.1

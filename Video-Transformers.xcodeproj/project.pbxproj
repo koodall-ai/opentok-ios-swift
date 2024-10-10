@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1356755F2AA9FA890034AED6 /* BanubaTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356755E2AA9FA890034AED6 /* BanubaTransformer.swift */; };
+		135675612AAB2FC50034AED6 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = 135675602AAB2FC50034AED6 /* effects */; };
+		9935FA449AF9CCD3929BCF9C /* Pods_Video_Transformers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB498E0FD555C53478AA986 /* Pods_Video_Transformers.framework */; };
+		A05375D71EB1633400645696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05375CF1EB1633400645696 /* AppDelegate.swift */; };
+		A05375D81EB1633400645696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05375D01EB1633400645696 /* Assets.xcassets */; };
+		A05375D91EB1633400645696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05375D11EB1633400645696 /* LaunchScreen.storyboard */; };
+		A05375DA1EB1633400645696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05375D31EB1633400645696 /* Main.storyboard */; };
+		A05375DC1EB1633400645696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05375D61EB1633400645696 /* ViewController.swift */; };
+		ADE6E7BE2A93B07300895674 /* Vonage_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE6E7BD2A93B07300895674 /* Vonage_Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1356755E2AA9FA890034AED6 /* BanubaTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanubaTransformer.swift; sourceTree = "<group>"; };
+		135675602AAB2FC50034AED6 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effects; sourceTree = "<group>"; };
+		746E62F621FA7150B02F1724 /* Pods-Video-Transformers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video-Transformers.release.xcconfig"; path = "Target Support Files/Pods-Video-Transformers/Pods-Video-Transformers.release.xcconfig"; sourceTree = "<group>"; };
+		A05375CF1EB1633400645696 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A05375D01EB1633400645696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05375D21EB1633400645696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A05375D41EB1633400645696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A05375D51EB1633400645696 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05375D61EB1633400645696 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADE6E7BD2A93B07300895674 /* Vonage_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vonage_Logo.png; path = "Video-Transformers/Vonage_Logo.png"; sourceTree = "<group>"; };
+		ECB498E0FD555C53478AA986 /* Pods_Video_Transformers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Transformers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F305D55EB10DEE520880D18F /* Pods-Video-Transformers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video-Transformers.debug.xcconfig"; path = "Target Support Files/Pods-Video-Transformers/Pods-Video-Transformers.debug.xcconfig"; sourceTree = "<group>"; };
+		F86C649A1D5C7C630081846D /* Video-Transformers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video-Transformers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86C64971D5C7C630081846D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9935FA449AF9CCD3929BCF9C /* Pods_Video_Transformers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19BDF6AE2D67A2FDE4183491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB498E0FD555C53478AA986 /* Pods_Video_Transformers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		651BF1BD8407C44E924A3910 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F305D55EB10DEE520880D18F /* Pods-Video-Transformers.debug.xcconfig */,
+				746E62F621FA7150B02F1724 /* Pods-Video-Transformers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A05375CE1EB1633400645696 /* Video-Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				135675602AAB2FC50034AED6 /* effects */,
+				A05375CF1EB1633400645696 /* AppDelegate.swift */,
+				A05375D01EB1633400645696 /* Assets.xcassets */,
+				A05375D11EB1633400645696 /* LaunchScreen.storyboard */,
+				A05375D31EB1633400645696 /* Main.storyboard */,
+				A05375D51EB1633400645696 /* Info.plist */,
+				A05375D61EB1633400645696 /* ViewController.swift */,
+				1356755E2AA9FA890034AED6 /* BanubaTransformer.swift */,
+			);
+			path = "Video-Transformers";
+			sourceTree = "<group>";
+		};
+		F86C64911D5C7C630081846D = {
+			isa = PBXGroup;
+			children = (
+				ADE6E7BD2A93B07300895674 /* Vonage_Logo.png */,
+				A05375CE1EB1633400645696 /* Video-Transformers */,
+				F86C649B1D5C7C630081846D /* Products */,
+				651BF1BD8407C44E924A3910 /* Pods */,
+				19BDF6AE2D67A2FDE4183491 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F86C649B1D5C7C630081846D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86C649A1D5C7C630081846D /* Video-Transformers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86C64991D5C7C630081846D /* Video-Transformers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86C64AC1D5C7C630081846D /* Build configuration list for PBXNativeTarget "Video-Transformers" */;
+			buildPhases = (
+				1DA9D6B64CB5686C9AD49295 /* [CP] Check Pods Manifest.lock */,
+				F86C64961D5C7C630081846D /* Sources */,
+				F86C64971D5C7C630081846D /* Frameworks */,
+				F86C64981D5C7C630081846D /* Resources */,
+				ECFE1779A9CCBD06300F1BB4 /* [CP] Copy Pods Resources */,
+				1404D7A867F58E6E452B85BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video-Transformers";
+			productName = "Hello-World";
+			productReference = F86C649A1D5C7C630081846D /* Video-Transformers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86C64921D5C7C630081846D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = tokbox;
+				TargetAttributes = {
+					F86C64991D5C7C630081846D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F86C64951D5C7C630081846D /* Build configuration list for PBXProject "Video-Transformers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = F86C64911D5C7C630081846D;
+			productRefGroup = F86C649B1D5C7C630081846D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86C64991D5C7C630081846D /* Video-Transformers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86C64981D5C7C630081846D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE6E7BE2A93B07300895674 /* Vonage_Logo.png in Resources */,
+				A05375DA1EB1633400645696 /* Main.storyboard in Resources */,
+				A05375D81EB1633400645696 /* Assets.xcassets in Resources */,
+				A05375D91EB1633400645696 /* LaunchScreen.storyboard in Resources */,
+				135675612AAB2FC50034AED6 /* effects in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1404D7A867F58E6E452B85BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Video-Transformers/Pods-Video-Transformers-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BNBSdkApi/BNBSdkApi.framework/BNBSdkApi",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BNBSdkCore/BNBSdkCore.framework/BNBSdkCore",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BNBSdkApi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BNBSdkCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Video-Transformers/Pods-Video-Transformers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DA9D6B64CB5686C9AD49295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video-Transformers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFE1779A9CCBD06300F1BB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Video-Transformers/Pods-Video-Transformers-resources.sh",
+				"${PODS_ROOT}/BNBAcneEyebagsRemoval/bnb-resources",
+				"${PODS_ROOT}/BNBBackground/bnb-resources",
+				"${PODS_ROOT}/BNBBody/bnb-resources",
+				"${PODS_ROOT}/BNBEffectPlayer/bnb-resources",
+				"${PODS_ROOT}/BNBEyes/bnb-resources",
+				"${PODS_ROOT}/BNBFaceTracker/bnb-resources",
+				"${PODS_ROOT}/BNBFaceTrackerLite/bnb-resources",
+				"${PODS_ROOT}/BNBHair/bnb-resources",
+				"${PODS_ROOT}/BNBHands/bnb-resources",
+				"${PODS_ROOT}/BNBLips/bnb-resources",
+				"${PODS_ROOT}/BNBNeurobeautyMakeup/bnb-resources",
+				"${PODS_ROOT}/BNBOcclusion/bnb-resources",
+				"${PODS_ROOT}/BNBScripting/bnb-resources",
+				"${PODS_ROOT}/BNBSdkCore/bnb-resources",
+				"${PODS_ROOT}/BNBSkin/bnb-resources",
+				"${PODS_ROOT}/BNBWatch/bnb-resources",
+				"${PODS_ROOT}/BanubaSdk/bnb-resources",
+				"${PODS_ROOT}/OTXCFramework/OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bnb-resources",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/selfie_segmentation.tflite",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Video-Transformers/Pods-Video-Transformers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86C64961D5C7C630081846D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1356755F2AA9FA890034AED6 /* BanubaTransformer.swift in Sources */,
+				A05375DC1EB1633400645696 /* ViewController.swift in Sources */,
+				A05375D71EB1633400645696 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A05375D11EB1633400645696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05375D21EB1633400645696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A05375D31EB1633400645696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05375D41EB1633400645696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F86C64AA1D5C7C630081846D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		F86C64AB1D5C7C630081846D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		F86C64AD1D5C7C630081846D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F305D55EB10DEE520880D18F /* Pods-Video-Transformers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Video-Transformers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banuba.sample.Opentok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F86C64AE1D5C7C630081846D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746E62F621FA7150B02F1724 /* Pods-Video-Transformers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Video-Transformers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banuba.sample.Opentok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86C64951D5C7C630081846D /* Build configuration list for PBXProject "Video-Transformers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86C64AA1D5C7C630081846D /* Debug */,
+				F86C64AB1D5C7C630081846D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86C64AC1D5C7C630081846D /* Build configuration list for PBXNativeTarget "Video-Transformers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86C64AD1D5C7C630081846D /* Debug */,
+				F86C64AE1D5C7C630081846D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86C64921D5C7C630081846D /* Project object */;
+}
